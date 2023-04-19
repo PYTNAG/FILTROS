@@ -1,0 +1,20 @@
+x: 2*x
+y: 3*y
+file: 2x_3y
+
+x: x ** 2
+y: y ** 2
+file: x2_y2
+
+x: (x - 250) ** 2
+y: (y - 250) ** 2
+file: 250-250-x2_y2
+
+x: 250 if x == 250 else 1 / (x - 250)
+y: 250 if y == 250 else 1/ (y - 250)
+file: slash-po
+
+x: math.sqrt(abs(x - 250))
+y: abs(y - 250) ** (4 /3)
+file: qt-12
+

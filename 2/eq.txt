@@ -1,0 +1,665 @@
+n: (len(files) - 1) / 2 * (math.sin(0.00432 * math.pi * ((x-250)**2 + (y-250)**2) / 180) + 1)
+file: 3
+
+n: 255 / 2 * (math.sin(0.00432 * math.pi * ((x-250)**2 + (y-250)**2) / 180) + 1)
+file: 1
+
+n: 255 / 2 * (math.sin(0.00432 * math.pi * ((x-250)**2 + (y-250)**2) / 180) + 1)
+file: 2
+
+n: (len(files) - 1) / 2 * (math.sin(0.00432 * math.pi * ((x-250)**2 + (y-250)**2) / 180) + 1)
+file: test1
+
+n: (len(files) - 1) / 2 * (math.sin(0.00432 * math.pi * ((x-418)**2 + (y-378)**2) / 180) + 1)
+file: test2
+
+n: (len(files) - 1) / 2 * (math.sin(0.00432 * math.pi * ((x-239)**2 + (y-712)**2) / 180) + 1)
+file: test3
+
+n: round((len(files) - 1) / 2 * (math.sin(0.00432 * math.pi * ((x-250)**2 + (y-250)**2) / 180) + 1))
+file: tt1
+
+n: round((len(files) - 1) / 2 * (math.sin(0.00432 * math.pi * ((x-250)**2 + (y-250)**2) / 180) + 1))
+file: bg1
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-250)**2 + (y-250)**2) / 180) + 1))
+file: bg2
+
+n: round((len(files) - 1) / 2 * (math.sin(0.00863 * math.pi * ((x-500)**2 + (y-500)**2) / 180) + 1))
+file: bg3
+
+n: round((len(files) - 1) / 2 * (math.sin(0.00144 * math.pi * ((x-500)**2 + (y-500)**2) / 180) + 1))
+file: bg4
+
+n: round( ( ( x-500 ) / ( y-500 ) ) if y != 500 else 0 )
+file: bg5
+
+n: round( ( 30 * ( x-500 ) / ( y-500 ) ) if y != 500 else 0 )
+file: bg6
+
+n: round( math.sqrt( math.sqrt( (x - 500)**2 + (y - 500)**2 ) ) * ( math.sqrt( (x-1027)**2 + (y-1660)**2 ) ) / 500 )
+file: bg7
+
+n: round( math.sqrt( math.sqrt( (x - 500)**2 + (y - 500)**2 ) ) * ( math.sqrt( (x-1027)**2 + (y-1660)**2 ) ) / 500 )
+file: bg7_fixed
+
+n: round( math.sqrt( (x - 500)**2 + (y - 500)**2 ) / ( math.sqrt( (x-1027)**2 + (y-1660)**2 ) / 50 ) if y - x  != 633 else 0)
+file: bg8
+
+n: round((len(files) - 1) / 2 * math.sin(math.cos(x) + math.cos(y)))
+file: sin_cos_cos
+
+n: round((len(files) - 1) / 2 * math.sin(math.cos(0.0014 * x) + math.cos(0.0014 * y)))
+file: sin_cos_cos_2
+
+n: round((len(files) - 1) / 2 * math.sin(math.cos(x/math.pi) + math.cos(y/math.pi)))
+file: sin_cos_cos_3
+
+n: round((len(files) - 1) / 2 * (math.sin(0.00144 * math.pi * ((x-500)**2 + (y-500)**2) / 180) + 1))
+file: res1
+n: 1 / math.sin(math.sqrt((x-250)**2 + (y-250)**2)) if (x != 250 and y != 250) else 0
+file: 11
+
+n: 1 / math.sin(0.004*math.sqrt((x-250)**2 + (y-250)**2)) if (x != 250 and y != 250) else 0
+file: 12
+
+n: 1 / math.sin(0.001*math.sqrt((x-250)**2 + (y-250)**2)) if (x != 250 and y != 250) else 0
+file: 13
+
+n: 1 / math.sin(0.002*math.sqrt((x-250)**2 + (y-250)**2)) if (x != 250 and y != 250) else 0
+file: 14
+
+n: 1 / abs(math.sin(0.002*math.sqrt((x-250)**2 + (y-250)**2))) if (x != 250 and y != 250) else 0
+file: 15
+
+n: 1 / abs(math.sin(0.004*math.sqrt((x-250)**2 + (y-250)**2))) if (x != 250 and y != 250) else 0
+file: 16
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-678)**2 + (y-679)**2) / 180) + 1))
+file: b1
+
+n: round((len(files) - 1) / 2 * (math.sin(0.002 * math.pi * ((x-678)**2 + (y-679)**2) / 180) + 1))
+file: b2
+
+n: round((len(files) - 1) / 2 * (math.sin(0.9 * math.pi * ((x-678)**2 + (y-679)**2) / 180) + 1))
+file: b3
+
+n: (math.sin(0.9 * math.pi * ((x-678)**2 + (y-679)**2) / 180) + 1)
+file: b4
+
+n: (math.sin(0.9 * math.pi * (((x-678)**2/400 + (y-679)**2)/100) / 180) + 1)
+file: b5
+
+n: (math.sin(0.9 * math.pi * (((x-678)**2/100 + (y-679)**2)/4) / 180) + 1)
+file: b6
+
+n: (len(files) - 1) / 2 * (((x-678)**2)/100 + ((y-679)**2)/4)
+file: b7
+
+n: 1 if ((x - 500)**2 + (y - 500)**2)**(0.5) <= 400 or y <= 1000 - x else 0
+file: b8
+
+n: 1 if ((x - 500)**2 + (y - 500)**2)**(0.5) <= 400 or y <= 788 - x else 0
+file: b9
+
+n: 1 if ((x - 500)**2 + (y - 500)**2)**(0.5) <= 400 or y <= 753 - x else 0
+file: b10
+
+n: 0 if ((x - 500)**2 + (y - 500)**2)**(0.5) <= 400 or y <= 753 - x else 1
+file: b10_2
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180) + 1))
+file: bb_1
+
+n: round((len(files) - 1) / 2 * (math.tan(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180)))
+file: bb_2
+
+n: 
+file: sh1
+
+n: 
+file: sh2
+
+n: 
+file: sh3
+
+n: 
+file: sh4
+
+n: 
+file: sh5
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180) + 1))
+file: test_11
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180) + 1))
+file: test_11
+
+n: (len(files) - 1) / 2 * (math.sin(0.005 * math.pi * (x**2 + y**2) / 180) + 1)
+file: test_11
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 0 * math.pi / 5) + 1))
+file: gif/1
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 1 * math.pi / 5) + 1))
+file: gif/2
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 2 * math.pi / 5) + 1))
+file: gif/3
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 3 * math.pi / 5) + 1))
+file: gif/4
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 4 * math.pi / 5) + 1))
+file: gif/5
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 5 * math.pi / 5) + 1))
+file: gif/6
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 6 * math.pi / 5) + 1))
+file: gif/7
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 7 * math.pi / 5) + 1))
+file: gif/8
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 8 * math.pi / 5) + 1))
+file: gif/9
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180 + 9 * math.pi / 5) + 1))
+file: gif/10
+
+n: round((len(files) - 1) / 2 * (math.tan(0.005 * math.pi * ((x-500)**2 + (y-500)**2) / 180)))
+file: dr1
+
+n: round((len(files) - 1) / 2 * (math.tan(0.005 * math.pi * ((x-300)**2 + (y-300)**2) / 180)))
+file: dr2
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-300)**2 + (y-300)**2) / 180)))
+file: dr3
+
+n: round((len(files) - 1) / 2 * (math.sin(math.pi * ((x-300)**2 + (y-300)**2) / 180)))
+file: dr4
+
+n: round((len(files) - 1) / 2 * (math.sin(math.pi * ((x-300)**2 + (y-300)**2) / 180) + 1))
+file: dr5
+n: round((len(files) - 1) / 2 * (math.sin(math.pi * ((x-300)**2 + (y-300)**2) / 180) + 1))
+file: dr6
+
+n: round((len(files) - 1) / 2 * (math.sin(0.005 * math.pi * ((x-646)**2 + (y-465)**2) / 180) + 1))
+file: dr7
+
+n: round((len(files) - 1) / 2 * (math.sin(0.05 * math.pi * ((x-646)**2 + (y-465)**2) / 180) + 1))
+file: dr8
+
+n: round((len(files) - 1) / 2 * (math.sin(0.05 * math.pi * ((x-646)**2 + (y-465)**2) / 180) + 1))
+file: dr9
+
+n: round(math.sqrt(math.sqrt((x-600)**2+(y-1128)**2)*math.sqrt((x-1876)**2+(y-1128)**2)))
+file: gl1
+
+n: round(math.sqrt(math.sqrt((x-600)**2+(y-1128)**2)*math.sqrt((x-1876)**2+(y-1128)**2))/200)
+file: gl2
+
+n: 2 ** (math.cos(0.03*math.sqrt((x-170)**2 + (y-240)**2))/(4*0.03))
+file: slime2
+
+n: 2 ** (math.cos(0.03*math.sqrt((x-680)**2 + (y-974)**2))/(4*0.03))
+file: slime3
+
+n: 2 ** (math.cos(0.02*math.sqrt((x-680)**2 + (y-974)**2))/(8*0.02))
+file: slime4
+
+n: 2 ** (math.cos(0.02*math.sqrt((x-894)**2 + (y-1038)**2))/(8*0.02))
+file: sup1
+
+n: 4 * math.sin(math.pi / 50 * math.sqrt((x - 894)**2 + (y-1038)**2)) + 4
+file: sup2
+
+n: 8/(math.e - 1) * math.exp(1/2 * math.cos(math.log(math.cos(0.03 * math.sqrt((x - 894)**2 + (y - 1038)**2)) + 1, math.e)) + 1/2) - 8/(math.e - 1)
+file: sup3
+
+n: 8/math.log(3, 2) * (math.log((math.cos(math.pi / 50 * math.sqrt((x - 894)**2 + (y - 1038)**2)) + 2), 2))
+file: sup4
+
+n: 3/2 * math.sin(math.pi/50 * (math.sqrt((x - 750)**2 + (y - 750)**2))**(2/3)) + 3/2
+file: m1
+
+n: 3/2 * math.sin(math.pi/2 * (math.sqrt((x - 750)**2 + (y - 750)**2))**(2/3)) + 3/2
+file: m2
+
+n: 3/2 * math.sin(math.pi/50 * (math.sqrt((x - 750)**2 + (y - 750)**2))) + 3/2
+file: m3
+
+n: 2*abs(math.sin(0.1 * abs(abs(math.cos(0.1 * abs(math.sqrt((x - 750)**2 + (y - 750)**2)))) + abs(math.sqrt((x - 750)**2 + (y - 750)**2)))))
+file: m4
+
+n: 2*abs(math.sin(0.01 * abs(abs(math.cos(0.01 * abs(math.sqrt((x - 750)**2 + (y - 750)**2)))) + abs(math.sqrt((x - 750)**2 + (y - 750)**2)))))
+file: m5
+
+n: 2*abs(math.sin(0.01 * abs(abs(math.cos(0.01 * abs(math.sqrt((x - 750)**2 + (y - 750)**2)))) + abs(math.sqrt((x - 750)**2 + (y - 750)**2)))))
+file: m5
+
+n: 2*abs(math.sin(0.01 * abs(abs(math.cos(0.01 * abs(math.sqrt((x - 750)**2 + (y - 750)**2)))) + abs(math.sqrt((x - 750)**2 + (y - 750)**2)))))
+file: m5
+
+n: 3*abs(math.sin(0.05 * abs(abs(math.cos(0.01 * abs(math.sqrt((x - 750)**2 + (y - 750)**2)))) + abs(math.sqrt((x - 750)**2 + (y - 750)**2)))))
+file: m6
+
+n: 3*abs(math.sin(0.05 * abs(abs(math.cos(0.05 * abs(math.sqrt((x - 750)**2 + (y - 750)**2)))) + abs(math.sqrt((x - 750)**2 + (y - 750)**2)))))
+file: m7
+
+n: math.sin(math.pi / 25 * math.sqrt((x - 750)**2 + (y - 750)**2)) + 1
+file: m8
+
+n: 3/2 * math.cos(math.pi / 25 * math.sqrt((x - 750)**2 + (y - 750)**2)) + 3/2
+file: m9
+
+n: abs(20 - (x % 40)) / 10
+file: m10
+
+n: abs(20 - (math.sqrt((x - 750)**2 + (y - 750)**2) % 40)) / 10
+file: m11
+
+n: round(abs(20 - (math.sqrt((x - 750)**2 + (y - 750)**2) % 40)) / 10)
+file: m12
+
+n: round(abs(40 - (math.sqrt((x - 750)**2 + (y - 750)**2) % 80)) / 20)
+file: m13
+
+n: round(abs(10 - (math.sqrt((x - 750)**2 + (y - 750)**2) % 20)) / 5)
+file: m14
+
+n: round(math.tan(math.sqrt((x - 400)**2 + (y - 100)**2))) if (math.sqrt((x - 400)**2 + (y - 100)**2) % (math.pi / 2) != 0) else 0
+file: zud1
+
+n: round(math.tan(math.sqrt((x - 400)**2 + (y - 100)**2) / 30)) if ((math.sqrt((x - 400)**2 + (y - 100)**2) / (30)) % (math.pi / 2) != 0) else 0
+file: zud2
+
+n: round(math.tan(math.sqrt((x-400)**2 + (y - 100)**2)) / math.tan(math.sqrt((x - 420)**2 + (y - 80)**2))) if ((math.sqrt((x-400)**2 + (y - 100)**2) % (math.pi / 2) != 0) and (math.sqrt((x - 420)**2 + (y - 80)**2) % (math.pi / 2) !))
+file: zud2
+
+n: round(math.tan(math.sqrt((x-400)**2 + (y - 100)**2)) / math.tan(math.sqrt((x - 420)**2 + (y - 80)**2))) if ((math.sqrt((x-400)**2 + (y - 100)**2) % (math.pi / 2) != 0) and (math.sqrt((x - 420)**2 + (y - 80)**2) % (math.pi / 2) != 0 )) else 0
+file: zud3
+
+n: round(math.tan(math.sqrt((x-400)**2 + (y - 100)**2) / 10) / math.tan(math.sqrt((x - 420)**2 + (y - 80)**2) / 10)) if (((math.sqrt((x-400)**2 + (y - 100)**2) / 10) % (math.pi / 2) != 0) and ((math.sqrt((x - 420)**2 + (y - 80)**2) / 10) % (math.pi / 2) != 0 )) else 0
+file: zud4
+
+n: round(((math.sin(math.pi / 90 * d - math.pi / 2)) + 1)/2)
+file: dd1
+
+n: round(((math.sin((math.pi / 90 * d) ** (2/3) - math.pi / 2)) + 1)/2)
+file: dd2
+
+n: 1 / math.sin(0.004*d) if (d != 0) else 0
+file: dd2
+
+n: 1 / math.sin(0.01*d) if (d != 0) else 0
+file: dd3
+
+n: round(math.tan(d / 30)) if ((d / 30) % (math.pi / 2) != 0) else 0
+file: dd4
+
+n: 
+file: indatest1
+
+n: 
+file: indatest2
+
+n: 
+file: new1
+
+n: 
+file: new2
+
+n: 
+file: new3
+
+n: 
+file: new4
+
+n: 
+file: new5
+
+n: 
+file: new6
+
+n: 
+file: newnew1
+
+n: 
+file: newnew2
+
+n: 
+file: qwe1
+
+n: 
+file: qwe2
+
+n: 
+file: qwe3
+
+n: 
+file: qwe4
+
+n: 
+file: qwe5
+
+n: 
+file: qwe6
+
+n: 
+file: qwe7
+
+n: 
+file: qwe_maxi
+
+n: 
+file: qwe_maxi2
+
+n: 
+file: qwe_hyper
+
+n: 
+file: qwe_hyper2
+
+n: 
+file: last1
+
+n: 
+file: last2
+
+n: 
+file: d20_1
+
+n: 
+file: d20_2
+
+n: 500
+file: d20_3
+
+n: 1000
+file: d20_4
+
+n: 1500
+file: d20_5
+
+n: 2000
+file: d20_6
+
+n: 200
+file: d20_7
+
+n: 50
+file: d20_8
+
+n: 
+file: c1
+
+n: 
+file: c2
+
+n: 
+file: c3
+
+n: 
+file: asd1
+
+n: 
+file: asd2
+
+n: 
+file: asd3
+
+n: 
+file: asd4
+
+n: 
+file: asd5
+
+n: 
+file: asd6
+
+n: 
+file: asd7
+
+n: 
+file: asd7-2
+
+n: 
+file: asd8
+
+n: 
+file: asd9
+
+n: 
+file: asd10
+
+n: 
+file: asd11
+
+n: 2
+file: q2
+
+n: 4
+file: q4
+
+n: 8
+file: q8
+
+n: 2 200
+file: conf_2_200
+
+n: 2 150
+file: conf_2_150
+
+n: 2 100
+file: conf_2_100
+
+n: 4 200
+file: conf_4_200
+
+n: 4 150
+file: conf_4_150
+
+n: 4 100
+file: conf_4_100
+
+n: 8 100
+file: conf_8_100
+
+n: 16 100
+file: conf_16_100
+
+n: 32 100
+file: conf_32_100
+
+n: 64 100
+file: conf_64_100
+
+n: 128 100
+file: conf_128_100
+
+n: 256 100
+file: conf_256_100
+
+n: 512 100
+file: conf_512_100
+
+n: 1 100
+file: conf_1_100
+
+n: 0 100
+file: conf_0_100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+r: x**2 + y**2
+g: x**2
+b: y**2
+file: circles
+
+r: math.sin(x + y)
+g: x ** 2
+b: y ** 2
+file: sin
+
+r: x ** 2
+g: y ** 2
+b: x**2 + y**2
+file: blue_circles
+
+r: x ** 2
+g: x**2 + y**2
+b: y ** 2
+file: green_circles
+
+r: math.sin(x + y)
+g: x // 10 * 10
+b: y // 10 * y
+file: 1
+
+r: math.sin(math.pi * x / 180) + math.sin(math.pi * y / 180)
+g: x // 10 * 10
+b: y // 10 * 10
+file: tiles
+
+r: (10 * math.sin(math.pi * x / 180))**2 + (10 * math.sin(math.pi * y / 180))**2
+g: abs(x)
+b: abs(y)
+file: hole
+
+r: ((x - 100)**2 + (y - 100)**2) * ((x + 100)**2 + (y + 100)**2)
+g: abs(x)
+b: abs(y)
+file: wow
+
+r: ((x - 100)**2 + (y - 100)**2) * ((x + 100)**2 + (y + 100)**2)
+g: 20*math.sin(x ** 2 + y ** 2)
+b: 20*math.cos(x ** 2 + y ** 2)
+file: wow2
+
+r: 123 * (x**2 + y**2)/(abs(x**2 + y**2) + 100)
+g: abs(x**2 + y**2)
+b: math.tan(math.pi * (x**2 + y**2) / 180)
+file: dream
+
+r: 255 / 2 * (math.sin(0.00432 * math.pi * (x**2 + y**2) / 180) + 1)
+g: 255 / 2 * (math.sin(0.01008 * math.pi * (x**2 + y**2) / 180) + 1)
+b: 255 / 2 * (math.sin(0.01584 * math.pi * (x**2 + y**2) / 180) + 1)
+file: raindbow
+
+r: 255 / 2 * (math.sin(0.0576 * math.pi * (x**2 + y**2) / 180) + 1)
+g: 255 / 2 * (math.sin(0.1152 * math.pi * (x**2 + y**2) / 180) + 1)
+b: 255 / 2 * (math.sin(0.2304 * math.pi * (x**2 + y**2) / 180) + 1)
+file: raindbow2
+
+r: 255 / 2 * (1 - math.cos(0.00432 * math.pi * ((x)**2 + (y)**2) / 180))
+g: 255 / 2 * (1 - math.cos(0.01008 * math.pi * ((x)**2 + (y)**2) / 180 + math.pi / 3))
+b: 255 / 2 * (1 - math.cos(0.01584 * math.pi * ((x)**2 + (y)**2) / 180 + 2 * math.pi / 3))
+file: r1
+
+r: 255 / 2 * (1 - math.cos(math.pi * math.sqrt((x)**2 + (y)**2) / 180))
+g: 255 / 2 * (1 - math.cos(math.pi * math.sqrt((x)**2 + (y)**2) / 180 + math.pi / 3))
+b: 255 / 2 * (1 - math.cos(math.pi * math.sqrt((x)**2 + (y)**2) / 180 + 2 * math.pi / 3))
+file: fire1
+
+r: 255 / 2 * (1 - math.cos(1.44 * math.pi * math.sqrt((x)**2 + (y)**2) / 180))
+g: 255 / 2 * (1 - math.cos(1.44 * math.pi * math.sqrt((x)**2 + (y)**2) / 180 + math.pi / 3))
+b: 255 / 2 * (1 - math.cos(1.44 * math.pi * math.sqrt((x)**2 + (y)**2) / 180 + 2 * math.pi / 3))
+file: fire2
+
+r: round( math.sqrt( (x - 50)**2 + (y - 50)**2 ) / ( math.sqrt( (x-450)**2 + (y-450)**2 ) / 50 ) if y + x  != 900 else 0)
+g: round( math.sqrt( (x - 450)**2 + (y - 450)**2 ) / ( math.sqrt( (x-50)**2 + (y-50)**2 ) / 50 ) if y + x  != 100 else 0)
+b: 0
+file: test1
+
+r: round(((x-250)**2 + (y-250)**2 + 150*(y-250))**2 / ((x-250)**2 + (y-250)**2)) if (x != 250 and y != 250) else 0
+g: 0
+b: 0
+file: test2
+
+r: round(((x-250)**2 + (y-250)**2 + 150*(y-250))**2 / ((x-250)**2 + (y-250)**2)) if (x != 250 and y != 250) else 0
+g: round(((x-250)**2 + (y-250)**2 - 150*(y-250))**2 / ((x-250)**2 + (y-250)**2)) if (x != 250 and y != 250) else 0
+b: 0
+file: test2_2
+
+r: round(255 / 2 * (math.sin(0.005 * math.pi * (math.sqrt((x - 250)**2 + (y - 250)**2)) / 180) + 1))
+g: 0
+b: 0
+a: round(255 / 2 * (math.sin(0.005 * math.pi * (math.sqrt((x - 250)**2 + (y - 250)**2)) / 180) + 1))
+file: testtttt
+
+r: round(255 / 2 * (math.sin(0.005 * math.pi * (math.sqrt((x - 250)**2 + (y - 250)**2)) / 180) + 1))
+g: 0
+b: 0
+a: round(255 / 2 * (math.sin(0.005 * math.pi * (math.sqrt((x - 250)**2 + (y - 250)**2)) / 180) + 1))
+file: qwertyu
+
+r: round(255 / 2 * (math.sin(0.005 * math.pi * (math.sqrt((x - 250)**2 + (y - 250)**2)) / 180) + 1))
+g: 0
+b: 0
+a: 1
+file: qwertyu
+
+r: 255
+g: 0
+b: 0
+a: round(255 / 2 * (math.sin(0.005 * math.pi * (math.sqrt((x - 250)**2 + (y - 250)**2)) / 180) + 1))
+file: qwertyu
+
